@@ -19,9 +19,9 @@ Predicting-Electric-Vehicle-Purchases/
 │   ├── train.csv                
 │   ├── test.csv                 
 │   └── sample_submission.csv 
-├── plots/                       # EDA figures (distributions, KDEs, signal charts)
+├── plots/                       # analyze_dataset figures (distributions, KDEs, signal charts)
 ├── outputs/
-├── 01_EDA.ipynb
+├── analyze_dataset.ipynb
 ├── train_classifier.py
 └── submission.csv
 ```

@@ -14,7 +14,7 @@ The notebook performs a thorough analysis, including data loading, structural in
 ## 📂 Repository Structure
 
 ```
-Predicting-Electric-Vehicle-Purchases/
+House-Prices-Advanced-Regression-Techniques/
 ├── dataset/
 │   ├── train.csv                
 │   ├── test.csv                 

@@ -50,10 +50,6 @@ The target variable is continuous and shows a **right-skewed distribution**.
 
 To improve normality for modeling, a **logarithmic transformation (`log1p`)** is applied, which significantly reduces skewness and makes the distribution more symmetric and closer to a normal distribution.
 
-| ![Original SalePrice Distribution](https://i.imgur.com/b7uW0xM.png) | ![Log-Transformed SalePrice Distribution](https://i.imgur.com/pWg9t4O.png) |
-| :--: | :--: |
-| *Original `SalePrice` Distribution* | *Log-Transformed `SalePrice` Distribution* |
-
 ### 3. Missing Values
 Missing values are present in both the training and test sets. The most affected columns are:
 *   `PoolQC` (over 99% missing)

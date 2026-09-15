@@ -11,6 +11,21 @@ This repository contains an exploratory data analysis (EDA) notebook for the **A
 
 The notebook performs a thorough analysis, including data loading, structural inspection, missing value assessment, target variable analysis, and feature type identification. The insights gained from this EDA provide a solid foundation for feature engineering and model selection.
 
+## 📂 Repository Structure
+
+```
+Predicting-Electric-Vehicle-Purchases/
+├── dataset/
+│   ├── train.csv                
+│   ├── test.csv                 
+│   └── sample_submission.csv 
+├── plots/                       # EDA figures (distributions, KDEs, signal charts)
+├── outputs/
+├── 01_EDA.ipynb
+├── train_classifier.py
+└── submission.csv
+```
+
 ## 📊 Dataset
 
 The project uses the Ames Housing dataset, a popular alternative to the Boston Housing dataset for regression tasks. It contains 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, and is split into two files:
